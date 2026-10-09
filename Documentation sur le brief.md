@@ -20,6 +20,5 @@
 - [ ] Utiliser VS Code pour écrire et organiser le code.
 - [ ] Organiser les pages HTML, le fichier CSS et les images du projet.
 - [ ] Utiliser Git pour suivre les modifications.
-- [ ] Utiliser GitHub pour partager et sauvegarder le projet.
-- [ ] Tester le site sur différentes tailles d’écran.
+- [ ] Utiliser GitHub pour partager et sauvegarder le projet
 - [ ] Rédiger un fichier README pour présenter le projet.
