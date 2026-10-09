@@ -551,3 +551,162 @@ button:focus-visible {
   line-height: 1.2;
   margin-bottom: 20px;
 }
+
+.contact {
+    padding: 80px 0;
+}
+
+.contact h1 {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.contact > .conteneur > p {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto 50px;
+}
+
+.contact label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+
+
+.contact textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+    outline: none;
+    border-color: #FF6B2C;
+}
+
+.contact button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    background-color: #FF6B2C;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #e85a20;
+}
+
+.informations-contact {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.informations-contact h2 {
+    margin-bottom: 20px;
+}
+
+.informations-contact p {
+    margin-bottom: 10px;
+}
+.horaires {
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.horaires h2 {
+    margin-bottom: 20px;
+}
+
+.horaires p {
+    margin-bottom: 10px;
+}
+
+.carte {
+    max-width: 600px;
+    margin: 50px auto 0;
+}
+
+.carte h2 {
+    margin-bottom: 20px;
+}
+
+.carte iframe {
+    border-radius: 8px;
+}
+
+
+.contact-formulaire {
+    flex: 1;
+    padding: 40px;
+    background-color: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(15, 27, 45, 0.08);
+}
+
+.ligne-champs {
+    display: flex;
+    gap: 20px;
+}
+
+.ligne-champs .champ {
+    flex: 1;
+}
+
+.champ {
+    margin-bottom: 22px;
+}
+
+.champ label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #0F1B2D;
+}
+
+.champ input,
+.champ textarea {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid #D1D5DB;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 15px;
+    background-color: #FFFFFF;
+    transition: border-color 0.2s;
+}
+
+.champ input:focus,
+.champ textarea:focus {
+    outline: none;
+    border-color: #FF6B2C;
+}
+
+.champ textarea {
+    min-height: 140px;
+    resize: vertical;
+}
+
+.contact-formulaire button {
+    padding: 14px 28px;
+    border: none;
+    border-radius: 8px;
+    background-color: #FF6B2C;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.contact-formulaire button:hover {
+    background-color: #F05817;
+}
