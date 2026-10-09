@@ -553,160 +553,114 @@ button:focus-visible {
 }
 
 .contact {
-    padding: 80px 0;
+  padding: 60px 0;
 }
 
 .contact h1 {
-    text-align: center;
-    margin-bottom: 12px;
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 12px;
 }
 
 .contact > .conteneur > p {
-    text-align: center;
-    margin-bottom: 40px;
+  text-align: center;
+  color: #4B5563;
+  margin-bottom: 30px;
 }
 
 .contact form {
-    max-width: 600px;
-    margin: 0 auto 50px;
+  max-width: 750px;
+  margin: 0 auto 35px;
+  padding: 30px;
+  background-color: #FFF0EA;
+  border-left: 4px solid #FF6B2C;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(15, 27, 45, 0.08);
+  text-align: left;
 }
 
 .contact label {
-    display: block;
-    margin-bottom: 8px;
-    font-weight: 600;
+  display: block;
+  margin: 14px 0 7px;
+  font-weight: bold;
+  color: #0F1B2D;
 }
 
 
+.contact input,
+.contact textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  border: 1px solid #D1D5DB;
+  border-radius: 6px;
+  background-color: white;
+  font-size: 15px;
+}
 
 .contact textarea {
-    min-height: 150px;
-    resize: vertical;
+  min-height: 130px;
+  resize: vertical;
 }
 
 .contact input:focus,
 .contact textarea:focus {
-    outline: none;
-    border-color: #FF6B2C;
+  outline: 2px solid #FF6B2C;
+  border-color: #FF6B2C;
 }
 
 .contact button {
-    padding: 12px 24px;
-    border: none;
-    border-radius: 8px;
-    background-color: #FF6B2C;
-    color: white;
-    font-weight: 600;
-    cursor: pointer;
+  margin-top: 18px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  background-color: #FF6B2C;
+  color: #f6f5f5;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 .contact button:hover {
-    background-color: #e85a20;
+  background-color: #68d04e;
 }
 
 .informations-contact {
-    max-width: 600px;
-    margin: 0 auto;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 25px 30px;
+  background-color: #FFF0EA;
+  border-left: 5px solid #FF6B2C;
+  border-radius: 9px;
+
 }
 
 .informations-contact h2 {
-    margin-bottom: 20px;
+  margin-bottom: 18px;
+  font-size: 24px;
 }
 
 .informations-contact p {
-    margin-bottom: 10px;
-}
-.horaires {
-    max-width: 600px;
-    margin: 50px auto;
+  margin-bottom: 10px;
 }
 
-.horaires h2 {
-    margin-bottom: 20px;
-}
+@media (max-width: 600px) {
+  .contact {
+    padding: 40px ;
+  }
 
-.horaires p {
-    margin-bottom: 10px;
-}
+  .contact h1 {
+    font-size: 30px;
+  }
 
-.carte {
-    max-width: 600px;
-    margin: 50px auto 0;
-}
+  .contact form {
+    padding: 20px;
+  }
 
-.carte h2 {
-    margin-bottom: 20px;
-}
-
-.carte iframe {
-    border-radius: 8px;
+  .informations-contact {
+    padding: 20px;
+  }
 }
 
 
-.contact-formulaire {
-    flex: 1;
-    padding: 40px;
-    background-color: #FFFFFF;
-    border: 1px solid #E5E7EB;
-    border-radius: 16px;
-    box-shadow: 0 8px 24px rgba(15, 27, 45, 0.08);
-}
 
-.ligne-champs {
-    display: flex;
-    gap: 20px;
-}
-
-.ligne-champs .champ {
-    flex: 1;
-}
-
-.champ {
-    margin-bottom: 22px;
-}
-
-.champ label {
-    display: block;
-    margin-bottom: 8px;
-    font-size: 14px;
-    font-weight: 600;
-    color: #0F1B2D;
-}
-
-.champ input,
-.champ textarea {
-    width: 100%;
-    padding: 14px 16px;
-    border: 1px solid #D1D5DB;
-    border-radius: 8px;
-    font-family: inherit;
-    font-size: 15px;
-    background-color: #FFFFFF;
-    transition: border-color 0.2s;
-}
-
-.champ input:focus,
-.champ textarea:focus {
-    outline: none;
-    border-color: #FF6B2C;
-}
-
-.champ textarea {
-    min-height: 140px;
-    resize: vertical;
-}
-
-.contact-formulaire button {
-    padding: 14px 28px;
-    border: none;
-    border-radius: 8px;
-    background-color: #FF6B2C;
-    color: #FFFFFF;
-    font-size: 15px;
-    font-weight: 600;
-    cursor: pointer;
-}
-
-.contact-formulaire button:hover {
-    background-color: #F05817;
-}
