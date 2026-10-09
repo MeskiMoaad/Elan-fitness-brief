@@ -24,6 +24,7 @@ Rédiger le fichier README.md.
 Mettre à jour le planning.
 Publier le projet sur GitHub.
 Publier le projet sur Simplonline
+
 Objectif final
 
 Créer un site web moderne, bien organisé et facile à utiliser, avec un code propre et facile à maintenir.
