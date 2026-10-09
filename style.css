@@ -576,7 +576,6 @@ button:focus-visible {
   border-left: 4px solid #FF6B2C;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(15, 27, 45, 0.08);
-  text-align: left;
 }
 
 .contact label {
@@ -589,8 +588,8 @@ button:focus-visible {
 
 .contact input,
 .contact textarea {
+  display: block;
   width: 100%;
-  box-sizing: border-box;
   padding: 12px;
   border: 1px solid #D1D5DB;
   border-radius: 6px;
@@ -610,7 +609,8 @@ button:focus-visible {
 }
 
 .contact button {
-  margin-top: 18px;
+  display: block;
+  margin-top: 18px ;
   padding: 12px 24px;
   border: none;
   border-radius: 6px;
@@ -643,24 +643,3 @@ button:focus-visible {
 .informations-contact p {
   margin-bottom: 10px;
 }
-
-@media (max-width: 600px) {
-  .contact {
-    padding: 40px ;
-  }
-
-  .contact h1 {
-    font-size: 30px;
-  }
-
-  .contact form {
-    padding: 20px;
-  }
-
-  .informations-contact {
-    padding: 20px;
-  }
-}
-
-
-
